@@ -3,38 +3,31 @@
 
 <head>
 	<title>Sign up | AnalogSea</title>
-	<img src="logo.png">
 	<link rel="stylesheet" type=text/css href="main.css">
 </head>
 
 <body>
 
-
+	<img src="logo.png">
 
 <main>
-	<div class="container">
-		<h1>Sign Up</h1>
-
-		<form name="email" method="post">
+		<form name="signup" class="signup-form" method="post">
+			<h1>Sign Up</h1>
 			<label for="email">Email</label>
 			<br>
 			<br>
 			<input type="email" name="email" placeholder="foo@bar.com">
 			<br>
 			<br>
-		</form>
-			
-		<form name="password" method="post">
 			<label for="password">Password</label>
 			<br>
 			<br>
-			<input type="password" name="password" placeholder="1234passw0rd">
+			<input type="password" name="password" placeholder="1234passw0rd" required/>
 			<br>
 			<br>
 			<button type="sign-up">Sign up</button>
 			<br>
 		</form>
-	</div>
 
 	<p></p>
 	<h3>Already have an account? <a href="">Log in</a></h3>

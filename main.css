@@ -13,20 +13,24 @@ img {
 
 body {
 	background-color: skyblue;
+	box-sizing: border-box; 
 
 }
 
-.container {
+.signup-form {
 	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 3px;
+	background: white;
 	height: 450px;
-	margin-left: auto;
-	margin-right: auto;
-	border: black;
+	margin: 0 auto;
 }
 
 h1 {
 	padding-top: 40px;
 	text-align: center;
+	font-size: 35px;
 }
 
 input, button {
@@ -37,10 +41,16 @@ input, button {
 	border-radius: 3px;
 }
 
+input {
+	background-color: lightgrey;
+	border: solid black 1px;
+}
+
 button {
 	font-size: 16px;
 	background-color: #67B56F;
 	color: white;
+	display: inline-block;
 }
 
 h3 {
